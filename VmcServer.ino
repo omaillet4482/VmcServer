@@ -13,6 +13,15 @@
 #include <DHT_U.h>
 
 #include "wifiConf.h"
+// fichier de constantes dans wifiConf.h
+// const char* ssid = 
+// const char* password = 
+// const IPAddress local_IP(192, 168, 1, X);
+// Set your Gateway IP address
+// const IPAddress gateway(192, 168, 1, 1);
+// const IPAddress subnet(255, 255, 255, 0);
+// const char* mqtt_server = "192.168.1.XXX";
+
 
 
 ESP8266WebServer server(80);
